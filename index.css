@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: black;
+    color: azure;
+    height: 5rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.back{
+    background-image: url("game.jpg");
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+}
+
+img {
+    margin-top: 10px;
+    height: 17rem;
+    width: 27rem;
+    object-fit: cover;
+    border: 2px solid black;
+  }
+
+#rockpaper{
+    margin-top: 7rem;
+}
+
+#tictactoe{
+    margin-top: 7rem;
+}
+
+#hangman{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+
+.game:hover{
+    opacity: 0.5;
+    cursor: zoom-in;
+}
+
+footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer a{
+    color: azure;
+    text-decoration: none;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    img {
+        margin-top: 5px;
+        height: 10rem;
+        width: 10rem;
+        object-fit: cover;
+        border: 2px solid black;
+      }
+
+    #rockpaper, #tictactoe, #hangman {
+        margin-top: 4rem;
+    }
+}
